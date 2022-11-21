@@ -1,7 +1,7 @@
 package com.example.LatSpring.services;
 
-import com.example.LatSpring.model.dto.ResponseData;
-import com.example.LatSpring.model.dto.UserDto;
+import com.example.LatSpring.model.dto.request.UserDto;
+import com.example.LatSpring.model.dto.response.ResponseData;
 
 public interface UserServices {
     ResponseData<Object> register(UserDto request);

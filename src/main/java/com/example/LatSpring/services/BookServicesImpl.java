@@ -1,7 +1,7 @@
 package com.example.LatSpring.services;
 
-import com.example.LatSpring.model.dto.BookDto;
-import com.example.LatSpring.model.dto.ResponseData;
+import com.example.LatSpring.model.dto.request.BookDto;
+import com.example.LatSpring.model.dto.response.ResponseData;
 import com.example.LatSpring.model.entity.Book;
 import com.example.LatSpring.model.entity.Category;
 import com.example.LatSpring.repository.BookRepository;

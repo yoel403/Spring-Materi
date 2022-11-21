@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.LatSpring.model.dto.BookDto;
-import com.example.LatSpring.model.dto.ResponseData;
+import com.example.LatSpring.model.dto.request.BookDto;
+import com.example.LatSpring.model.dto.response.ResponseData;
 import com.example.LatSpring.services.CategoryService;
 
 @RestController

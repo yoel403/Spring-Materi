@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.LatSpring.model.dto.ResponseData;
-import com.example.LatSpring.model.dto.UserDto;
+import com.example.LatSpring.model.dto.request.UserDto;
+import com.example.LatSpring.model.dto.response.ResponseData;
 import com.example.LatSpring.services.UserServices;
 
 @RestController

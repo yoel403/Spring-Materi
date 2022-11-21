@@ -25,9 +25,9 @@ public class Book {
   @Column(length = 100)
   private String author;
 
-  private boolean isDeleted = false;
+  private Boolean isDeleted = false;
 
-  private boolean isDipinjam = false ;
+  private Boolean isDipinjam = false ;
 
   // many to one ke table category
   @ManyToOne

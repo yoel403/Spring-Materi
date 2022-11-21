@@ -1,4 +1,4 @@
-package com.example.LatSpring.model.dto;
+package com.example.LatSpring.model.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
